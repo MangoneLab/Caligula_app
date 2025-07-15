@@ -22,6 +22,7 @@ User Input:
 Prompts the user to enter a hairpin sequence in which the two uppercase regions represent candidate 5p and 3p strands. For example, use 
 
 seq: ugggaUGAGGUAGUAGGUUGUAUAGUUuuagggucacacccaccacugggagauaaCUAUACAAUCUACUGUCUUUCcua
+
 structure: (((((.(((((((((((((((((((((.....(((...((((....)))).)))))))))))))))))))))))))))))
 
 Feature Extraction:
