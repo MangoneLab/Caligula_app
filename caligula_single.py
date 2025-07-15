@@ -15,13 +15,13 @@ print("🧬 MangoneLab - Caligula miRNA Strand Prediction - Terminal Version - v
 
 # Input from user
 # Hardcoded test inputs (let-7a)
-seq = "seq: ugggaUGAGGUAGUAGGUUGUAUAGUUuuuCUAUACAAUCUACUGUCUUUCcua"
-struct = "struct: (((((((.((((((((((((((((.....))))))))))))))).)))))))"
-print("Example - Human let-7a")
-print(seq)
-print(struct)
-#seq = input("Enter hairpin sequence (5p and 3p regions in uppercase):\n\n> ").strip()
-#struct = input("\nEnter dot-bracket structure:\n> ").strip()
+#seq = "seq: ugggaUGAGGUAGUAGGUUGUAUAGUUuuuCUAUACAAUCUACUGUCUUUCcua"
+#struct = "struct: (((((((.((((((((((((((((.....))))))))))))))).)))))))"
+#print("Example - Human let-7a")
+#print(seq)
+#print(struct)
+seq = input("Enter hairpin sequence (5p and 3p regions in uppercase):\n\n> ").strip()
+struct = input("\nEnter dot-bracket structure:\n> ").strip()
 
 # Validate
 if not seq or not struct:
