@@ -1,8 +1,10 @@
 FROM python:3.10
 
-# Set working directory
 WORKDIR /workspace
 
-# Copy and install requirements
-COPY requirements.txt .
+COPY ../requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
+
+COPY ../caligula_single.py .
+COPY ../extract_strand_features_fixed.py .
+COPY ../model.pkl .
