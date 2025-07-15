@@ -21,8 +21,8 @@ Core Workflow:
 User Input:
 Prompts the user to enter a hairpin sequence in which the two uppercase regions represent candidate 5p and 3p strands. For example, use 
 
-seq:ugggaUGAGGUAGUAGGUUGUAUAGUUuuuCUAUACAAUCUACUGUCUUUCcua
-structure: (((((((.((((((((((((((((.....))))))))))))))).))))))).
+seq: ugggaUGAGGUAGUAGGUUGUAUAGUUuuagggucacacccaccacugggagauaaCUAUACAAUCUACUGUCUUUCcua
+structure: (((((.(((((((((((((((((((((.....(((...((((....)))).)))))))))))))))))))))))))))))
 
 Feature Extraction:
 Internally the script calls extract_strand_features.py to compute ~77 biologically informed features derived only from the uppercase regions. These include:
