@@ -13,3 +13,5 @@ python caligula_single.py
 ```
 
 4. Follow the prompt to enter a hairpin sequence and structure.
+
+MangoneLab - Arizona State University
