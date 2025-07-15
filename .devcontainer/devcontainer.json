@@ -1,7 +1,7 @@
 {
-  "name": "Caligula Codespace with Python 3.10",
+  "name": "Caligula Strand Predictor",
   "build": {
-    "dockerfile": "Dockerfile"
+    "dockerfile": "../Dockerfile"
   },
   "customizations": {
     "vscode": {
@@ -9,5 +9,5 @@
     }
   },
   "features": {},
-  "postCreateCommand": "echo 'Ready to run Caligula'"
+  "postCreateCommand": "echo 'Ready to run Caligula in Python 3.10'"
 }
